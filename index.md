@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome
 
-You can use the [editor on GitHub](https://github.com/brettsalyer/brettsalyer.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This is my personal website, meant to showcase my professional skills to potential emplpoyers, as well as serve as a repository for personal projects I've done on my own time. This could be Raspberry Pi projects, mobile application development, game development, etc. On this site you wil (eventually) find my extended resume, which indludes work experience, skills, etc. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This site is currently under development.
 
 ### Markdown
 
@@ -24,14 +24,4 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/brettsalyer/brettsalyer.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+``
