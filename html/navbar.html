@@ -6,13 +6,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/master.css">
+  <link rel="stylesheet" href="/css/navbar.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body style="height:1500px">
-
 <div class="container-fluid">
   <br>
   <h1>Brett D. Salyer</h1>
@@ -21,20 +21,27 @@
     <br>An online portfolio and projects repository
   </p>
 </div>
-
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+<div id="navigate">
+<nav class="navbar navbar-expand-sm sticky-top navbar-default">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
+  <!--  <li>
+      <a href="google.com"><img src="../img/linkedin.png" width=50 height=50></a>
+    </li>
+    <li>
+      <a href="google.com"><img src="../img/github.svg" width=50 height=50></a>
+    </li> -->
+
+    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
       <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
+        <a class="nav-link" href="../html/projects.html">Projects</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
       </li>
       <!-- Dropdown -->
      <li class="nav-item dropdown">
@@ -49,7 +56,17 @@
      </li>
     </ul>
   </div>
-</nav>
 
+</nav>
+</div>
+<script type="text/javascript">
+//Click on any li in ul with class 'navbar-nav'
+     $('ul.navbar-nav li').click(function(e) {
+       var $this = $(this); // declare variable for current li that we click
+       $('ul.navbar-nav').find('li.active').last().removeClass('active') //find all li that class class active and remove
+       $this.addClass('active'); //add 'active' class to current li.
+     });
+
+</script>
 </body>
 </html>
