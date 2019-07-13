@@ -13,59 +13,28 @@
 </head>
 
 <body style="height:1500px">
-<div class="container-fluid">
-  <br>
-  <h1>Brett D. Salyer</h1>
-  <p>
-    Software Engineer.
-    <br>An online portfolio and projects repository
-  </p>
-</div>
 <div id="navigate">
-<nav class="navbar navbar-expand-sm sticky-top navbar-default">
-  <a class="navbar-brand" href="#"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-  <!--  <li>
-      <a href="google.com"><img src="../img/linkedin.png" width=50 height=50></a>
-    </li>
-    <li>
-      <a href="google.com"><img src="../img/github.svg" width=50 height=50></a>
-    </li> -->
-
-    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-      <li class="nav-item">
-        <a class="nav-link" href="../html/projects.html">Projects</a>
-      </li>
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav mx-auto px-auto mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
       </li>
-      <!-- Dropdown -->
-     <li class="nav-item dropdown">
-       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-         About
-       </a>
-       <div class="dropdown-menu">
-         <a class="dropdown-item" href="#">Resume</a>
-         <a class="dropdown-item" href="#">Education</a>
-         <a class="dropdown-item" href="#">Contact</a>
-       </div>
-     </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/html/projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">About</a>
+      </li>
     </ul>
   </div>
-
 </nav>
 </div>
-<script type="text/javascript">
-//Click on any li in ul with class 'navbar-nav'
-     $('ul.navbar-nav li').click(function(e) {
-       var $this = $(this); // declare variable for current li that we click
-       $('ul.navbar-nav').find('li.active').last().removeClass('active') //find all li that class class active and remove
-       $this.addClass('active'); //add 'active' class to current li.
-     });
+<script>
 
 </script>
 </body>

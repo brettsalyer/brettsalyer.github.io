@@ -9,17 +9,49 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+  <script src="https://www.vantajs.com/dist/vanta.net.min.js"></script>
   <script src=javascript/loadNavBar.js></script>
 </head>
 
-<body>
-  <div id="navigation">
-    <script src="javascript/loadNavBar.js">loadNavBar()</script>
+<body style="height: 3000px">
+  <div id="header-image" style="position:static !important;"> </div>
+  <div class="header-text header-subtext">
+    <div class="center">
+      <h1> Brett Salyer</h1>
+      <h2> Software Engineer & Student</h2>
+    </div>
   </div>
 
-  <h2 class="center">
-    Site coming soon
-  </h2>
+<div id="navigation"> </div>
+<div class="container-fluid"><br>
+  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+  <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+
+</div>
+
+
 
 </body>
+  <script>
+    VANTA.NET({
+      el: "#header-image",
+      color: 0x567ef1,
+      backgroundColor: 0x1a1a1a,
+      points: 10,
+      maxDistance: 20,
+      space: 12,
+      showDots: true
+    })
+  </script>
+  <script src="javascript/loadNavBar.js">loadNavBar()</script>
+
 </html>
