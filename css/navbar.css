@@ -1,26 +1,24 @@
 
 .navbar {
-  background-color: gray !important;
+  background-color: #363636 !important;
 }
+ .navbar-nav {
 
-.navbar-nav {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: transparent;
-}
-
+ }
 .navbar-nav .nav-link {
   color: white !important;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 20px;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
+.navbar-nav > ul {
+  align-items: center;
+}
 .navbar-nav > .active > a,
 .navbar-nav > .active > a:hover,
 .navbar-nav > .active > a:focus {
   color: #B3B3B3;
-  border-bottom: 1px solid white;
 }

@@ -1,7 +1,15 @@
-#header-image .vanta-style {
-  position: static !important;
-}
 
+#home-content {
+  position: absolute;
+  top:100%;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  position: static;
+}
 .header-text h1{
   position: absolute;
   margin-top: auto;
@@ -37,17 +45,17 @@ h1 {
  font-family: 'Roboto', sans-serif;
  font-size: 36px;
  font-weight: 100;
- color: white;
+ color: black;
 }
 
 h2 {
  font-family:'Roboto', sans-serif;
  font-size: 24px;
  font-weight: 100;
- color: #000066;
+ color: #black;
 }
 
-.center h1,  h2{
+.center h1,  .center h2{
   top: 50%;  /* position the top  edge of the element at the middle of the parent */
   left: 50%; /* position the left edge of the element at the middle of the parent */
 
