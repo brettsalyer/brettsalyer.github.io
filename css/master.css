@@ -7,12 +7,28 @@
   margin: 0;
   padding: 0;
 }
+
+#home-header .flex-container {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#home-header .flex-item {
+  padding: 10px 10px 10px 10px;
+}
+
+#profile {
+  height: 35vw;
+  width: auto;
+}
+
 .header {
   position: static;
 }
 .header-text h1{
-  position: absolute;
-  margin-top: auto;
   color: white;
   font-size: 6vw;
   font-family: "Roboto", sans-serif;
@@ -20,8 +36,6 @@
 }
 
 .header-subtext h2{
-  position: absolute;
-  margin-top: 5vw;
   color: white;
   font-size: 2vw;
   font-family: "Roboto", sans-serif;
@@ -55,7 +69,7 @@ h2 {
  color: #black;
 }
 
-.center h1,  .center h2{
+.center{
   top: 50%;  /* position the top  edge of the element at the middle of the parent */
   left: 50%; /* position the left edge of the element at the middle of the parent */
 

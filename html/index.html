@@ -11,39 +11,34 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
   <script src="https://www.vantajs.com/dist/vanta.net.min.js"></script>
-  <script src=../javascript/loadNavBar.js></script>
+  <script src=javascript/loadNavBar.js></script>
 </head>
 
 <body>
   <header id="home-header">
     <div id="vanta-background"></div>
-    <div id="header-text" class="center header-text header-subtext">
-      <h1> BRETT SALYER</h1>
-      <h2> Software Engineer & Student</h2>
+    <div id="header-text" class="flex-container center header-text header-subtext">
+      <img id="profile" src="../img/profile.png" class="flex-item flex-item-1"></img>
+      <h1 class="flex-item flex-item-2"> BRETT SALYER</h1>
+      <h2 class="flex-item flex-item-3"> Software Engineer & Student</h2>
     </div>
     <div id="navigation"></div>
   </header>
 
   <div id="content">
       <!-- Content Goes Here -->
-    </div>
   </div>
-
-
-  </div>
-
-
 
 </body>
   <script>
     VANTA.NET({
       el: "#vanta-background",
-      color: 0x567ef1,
-      backgroundColor: 0x1a1a1a,
-      points: 10,
-      maxDistance: 20,
-      space: 12,
-      showDots: true
+      color: 0xf0f0f0,
+      backgroundColor: 0x501815,
+      points: 5,
+      maxDistance: 16,
+      showDots: true,
+      spacing: 20
     })
   </script>
   <script src="javascript/loadNavBar.js">loadNavBar()</script>
