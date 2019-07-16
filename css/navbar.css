@@ -6,13 +6,18 @@
 
  }
 .navbar-nav .nav-link {
+  text-transform: uppercase;
   color: white !important;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.navbar-nav .nav-item .nav-link:hover {
+}
+
 
 .navbar-nav > ul {
   align-items: center;
@@ -20,5 +25,5 @@
 .navbar-nav > .active > a,
 .navbar-nav > .active > a:hover,
 .navbar-nav > .active > a:focus {
-  color: #B3B3B3;
+  color: blue;
 }
