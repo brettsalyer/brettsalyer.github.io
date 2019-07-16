@@ -1,12 +1,19 @@
-#profile {
+.about-content img {
   align-items: center;
-  width: 30%;
-  height: auto;
-  padding: 20px 20px 20px 20px;
+  width: 25vh;;
+  height: 25vh;
+  padding: 25px 25px 25px 25px;
 }
 
 .flex-container {
   display: flex;
   justify-content: left;
   flex-direction: row;
+  height: 500px;
+  width: auto;
+}
+
+.flex-item {
+  height: 15vh;
+
 }

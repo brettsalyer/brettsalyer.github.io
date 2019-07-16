@@ -17,11 +17,11 @@
 }
 
 #home-header .flex-item {
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 5px 10px;
 }
 
 #profile {
-  height: 35vw;
+  height: 15vw;
   width: auto;
 }
 
@@ -30,14 +30,14 @@
 }
 .header-text h1{
   color: white;
-  font-size: 6vw;
+  font-size: 3.5vw;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
 }
 
 .header-subtext h2{
   color: white;
-  font-size: 2vw;
+  font-size: 1.2vw;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
