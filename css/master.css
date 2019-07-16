@@ -1,4 +1,6 @@
 
+/* Set defaaults */
+
 #home-content {
   position: absolute;
   top:100%;
@@ -8,19 +10,21 @@
   padding: 0;
 }
 
-#home-header .flex-container {
+.flex-container {
   display: flex;
   position: absolute;
+  width: 100%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-#home-header .flex-item {
+.flex-item {
   padding: 10px 10px 5px 10px;
+  flex-grow: 1;
 }
 
-#profile {
+.item-1 {
   height: 15vw;
   width: auto;
 }
@@ -74,4 +78,151 @@ h2 {
   left: 50%; /* position the left edge of the element at the middle of the parent */
 
   transform: translate(-50%, -50%);
+}
+
+/* Low resolution phones (i.e, iPhone SE) */
+@media only screen and (max-width: 320px) {
+  .header-text h1 {
+    font-size: 10vw;
+  }
+  .header-text h2 {
+    font-size: 4vw;
+  }
+  .flex-container {
+    flex-grow: 1;
+  }
+  .flex-item {
+    padding: 0;
+  }
+  .flex-item-1 {
+    margin: 0;
+    height: auto;
+    width: 50%;
+    padding-bottom: 35px;
+  }
+  .flex-item-2 {
+    margin: 0;
+  }
+
+  .flex-item-3 {
+    margin: 0;
+  }
+}
+
+/* mid phones (i.e, iPhone X) */
+@media only screen and (min-width: 320px) {
+  .header-text h1 {
+    font-size: 10vw;
+  }
+  .header-text h2 {
+    font-size: 4vw;
+  }
+  .flex-container {
+    flex-grow: 1;
+  }
+  .flex-item {
+    padding: 0;
+  }
+  .flex-item-1 {
+    margin: 0;
+    height: auto;
+    width: 55%;
+    padding-bottom: 30px;
+  }
+  .flex-item-2 {
+    margin: 0;
+  }
+
+  .flex-item-3 {
+    margin: 0;
+  }
+}
+
+/* high res phones (i.e, Samsung Note) */
+@media only screen and (min-width: 600px) {
+  .header-text h1 {
+    font-size: 8vw;
+  }
+  .header-text h2 {
+    font-size: 3vw;
+  }
+  .flex-container {
+    flex-grow: 1;
+  }
+  .flex-item {
+    padding: 0;
+  }
+  .flex-item-1 {
+    margin: 0;
+    height: auto;
+    width: 40%;
+    padding-bottom: 30px;
+  }
+  .flex-item-2 {
+    margin: 0;
+  }
+
+  .flex-item-3 {
+    margin: 0;
+  }
+}
+
+
+/* tablets (i.e, Ipads) */
+@media only screen and (min-width: 768px) {
+  .header-text h1 {
+    font-size: 7vw;
+  }
+  .header-text h2 {
+    font-size: 2.5vw;
+  }
+  .flex-container {
+    flex-grow: 1;
+  }
+  .flex-item {
+    padding: 0;
+  }
+  .flex-item-1 {
+    margin: 0;
+    height: auto;
+    width: 35%;
+    padding-bottom: 30px;
+  }
+  .flex-item-2 {
+    margin: 0;
+  }
+
+  .flex-item-3 {
+    margin: 0;
+  }
+}
+
+/* High-res displays (i.e, Laptops / Desktops) */
+@media only screen and (min-width: 1200px) {
+
+  .header-text h1 {
+    font-size: 3.5vw;
+  }
+  .header-text h2 {
+    font-size: 1.2vw;
+  }
+  .flex-container {
+    flex-grow: 1;
+  }
+  .flex-item {
+    padding: 0;
+  }
+  .flex-item-1 {
+    margin: 0;
+    height: 15vw;
+    width: auto;
+    padding-bottom: 30px;
+  }
+  .flex-item-2 {
+    margin: 0;
+  }
+
+  .flex-item-3 {
+    margin: 0;
+  }
 }
