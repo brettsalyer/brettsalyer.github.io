@@ -4,8 +4,8 @@ body {
 
 .about-content img {
   align-items: center;
-  width: 25vh;
-  height: 25vh;
+  width: 20vh;
+  height: auto;
   padding: 25px 25px 25px 25px;
 }
 
