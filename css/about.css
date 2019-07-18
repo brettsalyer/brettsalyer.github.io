@@ -2,12 +2,12 @@ body {
   background-color: #ea4c4c !important;
 }
 
-.about-content img {
+.flex-container > img {
   align-items: center;
   width: 20vh;
   height: auto;
   padding: 25px 25px 25px 25px;
-  border: 2px dashed white;
+  border-style: 2px dashed white;
 }
 
 .flex-container {
