@@ -7,13 +7,9 @@
 
 .flex-container {
   display: flex;
-  justify-content: left;
+  color: gray;
+  justify-content: center;
   flex-direction: row;
-  height: 500px;
-  width: auto;
-}
-
-.flex-item {
-  height: 15vh;
-
+  height: 400px;
+  width: 100%;
 }
