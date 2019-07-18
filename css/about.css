@@ -4,10 +4,10 @@ body {
 
 .flex-container > img {
   align-items: center;
-  width: 20vh;
+  width: 30vh;
   height: auto;
   padding: 25px 25px 25px 25px;
-  border-style: 2px dashed white;
+  border: 5px dotted white;
 }
 
 .flex-container {
@@ -19,7 +19,11 @@ body {
   width: 100%;
 }
 
-h1, h2, p {
+h1 {
+  text-align: center  
+}
+
+h2, p {
  color: white;
- text-align: center;
+ text-align: left;
 }
