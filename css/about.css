@@ -1,6 +1,5 @@
-.html {
-  background-color: #ea4c4c !important; 
-  
+.body {
+  background-color: #ea4c4c; 
 }
 .about-content img {
   align-items: center;
@@ -11,7 +10,7 @@
 
 .flex-container {
   display: flex;
-  background-color: transparent;;
+  background-color: transparent;
   justify-content: center;
   align-items: center;
   flex-direction: row;
