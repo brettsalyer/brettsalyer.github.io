@@ -1,9 +1,10 @@
 .body {
-  background-color: #ea4c4c; 
+  background-color: #ea4c4c !important; 
 }
+
 .about-content img {
   align-items: center;
-  width: 25vh;;
+  width: 25vh;
   height: 25vh;
   padding: 25px 25px 25px 25px;
 }
