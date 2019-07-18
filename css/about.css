@@ -9,6 +9,7 @@
   display: flex;
   background-color: gray;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
   height: 400px;
   width: 100%;
