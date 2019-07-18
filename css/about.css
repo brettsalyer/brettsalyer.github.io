@@ -6,7 +6,7 @@ body {
   align-items: center;
   width: 30vh;
   height: auto;
-  padding: 25px 25px 25px 25px;
+  padding: 10px 10px 10px 10px;
   border: 5px dotted white;
 }
 
@@ -20,7 +20,8 @@ body {
 }
 
 h1 {
-  text-align: center  
+  text-align: center;
+  color: white;
 }
 
 h2, p {
