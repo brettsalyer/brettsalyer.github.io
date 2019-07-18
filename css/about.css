@@ -7,7 +7,7 @@
 
 .flex-container {
   display: flex;
-  color: gray;
+  background-color: gray;
   justify-content: center;
   flex-direction: row;
   height: 400px;
