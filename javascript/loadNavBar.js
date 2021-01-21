@@ -4,5 +4,5 @@
 
 */
 $(function(){
-  $("#navigation").load("../html/navbar.html");
+  $("#navigation").load("./html/navbar.html");
 });

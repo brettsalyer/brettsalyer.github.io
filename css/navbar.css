@@ -1,7 +1,6 @@
 
 .navbar {
   background-color: #2966B8 !important;
-  box
 }
 
  .navbar-nav {
@@ -9,7 +8,7 @@
  }
 .navbar-nav .nav-link {
   text-transform: uppercase;
-  color: white !important;
+  color: black !important;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 16px;

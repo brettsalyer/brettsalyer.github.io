@@ -5,24 +5,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/master.css">
+  <link rel="stylesheet" href="css/master.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
-  <script src="https://www.vantajs.com/dist/vanta.net.min.js"></script>
   <script src=javascript/loadNavBar.js></script>
 </head>
+
+<nav>
+  <div id="navigation">
+    <script src=./javascript/loadNavBar.js>loadNavBar()</script>
+  </div>
+</nav>
+
 
 <body>
   <header id="home-header">
     <div id="vanta-background"></div>
     <div id="header-text" class="flex-container center header-text header-subtext">
-      <img id="profile" src="../img/profile.png" class="flex-item flex-item-1"></img>
-      <h1 class="flex-item flex-item-2"> BRETT SALYER</h1>
-      <h2 class="flex-item flex-item-3"> Software Engineer & Student</h2>
+      <!-- <img id="profile" src="./img/profile.png" class="flex-item flex-item-1"></img> -->
+      <h1 class="flex-item flex-item-2"> Brett Salyer</h1>
+      <h2 class="flex-item flex-item-3"> Software Engineer</h2>
     </div>
-    <div id="navigation"></div>
+ 
   </header>
 
   <div id="content">
@@ -30,17 +36,5 @@
   </div>
 
 </body>
-  <script>
-    VANTA.NET({
-      el: "#vanta-background",
-      color: 0xffffff,
-      backgroundColor: 0x2F74D0,
-      points: 5,
-      maxDistance: 16,
-      showDots: true,
-      spacing: 20
-    })
-  </script>
-  <script src="javascript/loadNavBar.js">loadNavBar()</script>
 
 </html>
