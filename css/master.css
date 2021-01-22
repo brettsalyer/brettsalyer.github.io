@@ -231,6 +231,26 @@ button:focus {
     color: white !important;
   }
 
+  .fa {
+    padding: 10px !important;
+    font-size: 30px !important;
+    width: auto !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    margin: 5px 2px !important;
+    border-radius: 5px;
+  }
+  
+  .fab {
+    padding: 10px !important;
+    font-size: 30px !important;
+    width: auto !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    margin: 5px 2px !important;
+    border-radius: 5px;
+  }
+
 
 
 }
