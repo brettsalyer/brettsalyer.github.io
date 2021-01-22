@@ -11,6 +11,9 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/0e1861f339.js" crossorigin="anonymous"></script>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -24,11 +27,11 @@
 
 
 <body>
-    <!-- Navbar for the home page-->
+  <!-- Navbar for the home page-->
   <nav class="navbar navbar-expand-md navbar-dark">
     <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-      aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -61,6 +64,7 @@
           <span class="var-name">name</span>
           <span>=</span>
           <span class="var-value">"Brett Salyer"</span>
+          <span>;</span>
         </div>
         <div id=line-two>
           <span style="color:white;">2.</span>
@@ -68,10 +72,38 @@
           <span class="var-name">occupation</span>
           <span>=</span>
           <span class="var-value">"Software Engineer"</span>
+          <span>;</span>
         </div>
       </div>
     </div>
-    
+
+    <ul id="button-links" class="center">
+      <li>
+        <a href="https://github.com/brettsalyer" class="fa fa-github"></a>
+      </li>
+      <li>
+        <button onclick="copyInfo()" href="" class="fab fa-discord"></button>
+        <script>
+          function copyInfo() {
+            /* Get the text field */
+            var copyText = "brettsalyer#3205"
+
+            /* Copy the text inside the text field */
+            navigator.clipboard.writeText(copyText);
+
+            /* Alert the copied text */
+            var sb = document.getElementById("snackbar");
+            sb.innerHTML = copyText;
+            sb.className = "show";
+            setTimeout(function () { sb.className = sb.className.replace("show", ""); }, 3000);
+          }
+        </script>
+      </li>
+    </ul>
+
+    <div id="snackbar" class="">Toast Messages</div>
+
+
   </div>
 
 </body>
