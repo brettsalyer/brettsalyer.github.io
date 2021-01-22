@@ -12,8 +12,8 @@
 #introduction {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 5pt;
-  height: 40%;
-  width: 65%;
+  height:10vw;
+  width: 60vw;
   margin: auto;
   margin-top: 5%;
   padding-top: 2%;
@@ -34,48 +34,10 @@
   color: rgb(218, 83, 71)
 }
 
-.flex-container {
-  display: flex;
-  position: absolute;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.flex-item {
-  padding: 10px 10px 5px 10px;
-  flex-shrink: 1;
-
-}
-
-.item-1 {
-  height: 15vw;
-  width: auto;
-  background-color: red;
-}
-.item-2 {
-  background-color: red;
-}
-
-.item-3 {
-  background-color: yellow;
-}
-.header {
-  position: static;
-}
-.header-text h1{
-  color: white;
-  font-size: 3.5vw;
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-}
-
-.header-subtext h2{
-  color: white;
-  font-size: 1.2vw;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+.profile-image {
+  margin-top: 5%;
+  max-width: 18vw;
+  border-radius: 50%;
 }
 
 body {
@@ -92,8 +54,12 @@ p {
 }
 
 .intro-text {
+  display: flex;
+  justify-content: center !important;
+  align-content: center !important;
+  flex-direction: column;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 2.3vw;
+  font-size: 2.0vw;
   font-weight: 100;
   color: white !important;
 }
@@ -111,4 +77,31 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+@media screen and (min-width: 601px) {
+  
+}
+
+@media screen and (max-width: 600px) {
+  #introduction {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5pt;
+    height:15vw;
+    width: 80vw;
+    margin: auto;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: left;
+    text-indent: 5%;
+  }
+
+  .profile-image {
+    margin-top: 5%;
+    max-width: 40vw;
+    border-radius: 50%;
+  }
+
+
 }
