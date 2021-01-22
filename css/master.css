@@ -96,8 +96,18 @@ h2 {
 ul#button-links {
   text-align: center;
   padding-left: 0;
+  padding-top: 5px;
 }
 ul#button-links li {
+  display: inline;
+}
+
+ul#pdf-buttons {
+  text-align: left;
+  padding-left: 0;
+  max-width: 70vw !important;
+}
+ul#pdf-buttons li {
   display: inline;
 }
 
@@ -157,6 +167,7 @@ ul#button-links li {
 button {
   border: none;
   outline: none;
+  font-family: sans-serif;
 }
 
 /* Remove button borders */
