@@ -250,6 +250,7 @@ button:focus {
     text-decoration: none !important;
     margin: 5px 2px !important;
     border-radius: 5px;
+    max-width: 15vw !important;
   }
   
   .fab {
@@ -260,7 +261,11 @@ button:focus {
     text-decoration: none !important;
     margin: 5px 2px !important;
     border-radius: 5px;
+    max-width: 15vw !important;
+
   }
+
+  
 
 
 
